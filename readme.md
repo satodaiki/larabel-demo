@@ -2,7 +2,11 @@
 
 Larabelの勉強用リポジトリ
 
-とりあえず参考書を買うところから始めたい。
+参考書籍はこれ。
+
+[はじめてのLaravel5.7入門: PHPフレームワークLaravel5.7とPaizaCloudを使って10分でWebサービスを作る](https://www.amazon.co.jp/dp/B07HG2ZT15/ref=cm_sw_em_r_mt_dp_U_OfelDb2DH6T3V)
+
+これをlocalでできるように構築した。
 
 ### Laravelの起動
 

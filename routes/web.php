@@ -12,5 +12,16 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+  return redirect('/tasks');
+  // もともとあったルーティングをコメントアウト
+  // return view('welcome');
 });
+
+Route::get('/tasks','TaskController@index');
+
+Route::post('/tasks','TaskController@store');
+
+Route::delete('/tasks/{id}','TaskController@destroy');
+
+// HTTPSプロトコル使用時に必要な設定
+//\URL::forceScheme('https');
